@@ -1,0 +1,23 @@
+{
+  "name": "reviewsapi",
+  "version": "1.0.0",
+  "description": "A RESTful API that scrapes a business's reviews on Yelp for a provided key word.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "yelp",
+    "reviews",
+    "restful",
+    "api",
+    "nodejs"
+  ],
+  "author": "cvturner@usc.edu",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
+}
